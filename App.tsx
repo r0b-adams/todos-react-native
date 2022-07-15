@@ -3,10 +3,11 @@ import { StyleSheet, View } from 'react-native';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
+import { vh } from './helpers/viewportUnits';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.app}>
       <Header />
       <Main />
       <Footer />
@@ -15,10 +16,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  app: {
+    height: vh(100),
   },
 });
