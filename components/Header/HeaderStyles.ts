@@ -2,12 +2,21 @@ import { StyleSheet } from 'react-native';
 import { vh } from '../../helpers/viewportUnits';
 
 const HeaderStyles = StyleSheet.create({
-  header: {
+  view: {
     marginTop: 25,
     height: vh(5),
     width: '100%',
-    backgroundColor: 'salmon',
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomWidth: 2,
+    borderBottomColor: '#aaa',
+    borderStyle: 'dashed',
+  },
+  text: {
+    fontWeight: 'bold',
+    fontSize: 24,
   },
 });
 
-export default HeaderStyles.header;
+export default HeaderStyles;
