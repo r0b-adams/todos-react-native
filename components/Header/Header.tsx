@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native';
-import header from './HeaderStyles';
+import styles from './HeaderStyles';
 
 const Header = () => {
   return (
-    <View style={header}>
-      <Text>My Todos</Text>
+    <View style={styles.view}>
+      <Text style={styles.text}>React Native Todos!</Text>
     </View>
   );
 };
