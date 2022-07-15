@@ -1,9 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello, World!</Text>
+      <Header />
+      <Main />
+      <Footer />
     </View>
   );
 }
