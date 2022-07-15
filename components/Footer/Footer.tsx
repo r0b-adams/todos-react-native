@@ -1,9 +1,9 @@
+import footer from './FooterStyles';
 import { View, Text } from 'react-native';
-import React from 'react';
 
 const Footer = () => {
   return (
-    <View>
+    <View style={footer}>
       <Text>Footer</Text>
     </View>
   );

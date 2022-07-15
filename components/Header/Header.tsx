@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native';
-import React from 'react';
+import header from './HeaderStyles';
 
 const Header = () => {
   return (
-    <View>
-      <Text>Header</Text>
+    <View style={header}>
+      <Text>My Todos</Text>
     </View>
   );
 };

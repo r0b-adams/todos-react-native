@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native';
-import React from 'react';
+import main from './MainStyles';
 
 const Main = () => {
   return (
-    <View>
+    <View style={main}>
       <Text>Main</Text>
     </View>
   );
