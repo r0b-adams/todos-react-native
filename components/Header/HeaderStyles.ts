@@ -11,7 +11,7 @@ const HeaderStyles = StyleSheet.create({
     alignItems: 'center',
     borderBottomWidth: 2,
     borderBottomColor: '#aaa',
-    borderStyle: 'dashed',
+    borderStyle: 'solid',
   },
   text: {
     fontWeight: 'bold',
