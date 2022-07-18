@@ -8,4 +8,4 @@ const MainStyles = StyleSheet.create({
   },
 });
 
-export default MainStyles.main;
+export default MainStyles;
