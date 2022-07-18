@@ -1,10 +1,11 @@
-import footer from './FooterStyles';
-import { View, Text } from 'react-native';
+import styles from './FooterStyles';
+import { NavBar } from '../NavBar';
+import { View } from 'react-native';
 
-const Footer = () => {
+const Footer: React.FC<{ setView: React.Dispatch<React.SetStateAction<string>> }> = ({ setView }) => {
   return (
-    <View style={footer}>
-      <Text>Footer</Text>
+    <View style={styles.view}>
+      <NavBar setView={setView} />
     </View>
   );
 };
