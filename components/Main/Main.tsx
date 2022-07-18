@@ -9,7 +9,7 @@ const Main: React.FC<{ view: string; todos: Todo[] }> = ({ view, todos }) => {
   return (
     <View style={styles.main}>
       <Text>{view}</Text>
-      {view === 'In-Progress' && <TodoForm />}
+      {view === 'Todos' && <TodoForm />}
       <TodoContainer todos={todos} />
     </View>
   );
